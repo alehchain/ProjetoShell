@@ -1,0 +1,95 @@
+			************************************************************
+						   README
+			************************************************************
+
+
+			Nome dos integrantes: 	Alexandre Chain 		3924
+						Ana Clara Pereira Machado  	4820
+						Agadir José Dias Aquino    	4887
+						
+						
+
+			------------------------------------------------------------
+		
+		
+	O código poderá ser utilizado através do terminal linux, pois o mesmo foi 
+	desenvolvido através do Ubuntu 20.04.1 LTS.
+
+	https://github.com/alehchain/ProjetoShell
+	
+	O código possui algumas das bibliotecas nescessárias para execução da fork, wait 
+	entrada e saida e bibliotecas strings. Foram desenvolvidas algumas funções para
+	facilitar e economizar linhas de codigos e tempo de execução, a função principal
+	desenvolvida foi a função para criar os processos conceitos vistos na disciplina
+	tais como fork(), pid, execvp, waitpid etc. E também proposto na descrição do 
+	projeto. Ali cria os processos verifica os comandos do usuário e tratamento de 
+	erros caso haja falha no fork, comandos de espera do processo filho e um retorno
+	ao usuario que os processos foram executados.
+	Também a uma função para ficar executando o shell ate que chegue no tamanho final
+	e retorna se a shell deverá parar ou continuar. 
+	Função para pegar as comandos no buffer, além de funções para ler caracter por 
+	caracter e as funções para executar o strtok , uma laço para ler as frases no 
+	terminal e ler os caracter executar os comandos e por fim encerrar, isso é 
+	feito até que o usuário de comando de quit chamando a função quit e saindo da shell.
+	
+	
+	Execução do Codigo Passo 1: abrir o diretório onde encontra-se o projeto, em seguida
+	digite "gcc myshell.c -o myshell" aperte ENTER, posteriomente digite " ./myshell "
+	aperte ENTER novamente , execute as funçoes dentro do MeuShell. 
+	
+	Execução do Codigo Passo 2: abrir o diretório onde encontra-se o makefile, em seguida
+	no terminal digite make para execução.
+	
+	
+	Comandos : 
+	
+	ls :  lista os arquivos no diretorio 
+	
+	cat : cat [nomearq]  
+	
+	grep: procura por trechos de strings , retornando a linha 
+	
+	help: mostra as opçoes de comandos possiveis
+	
+	quit: fecha a shell 
+	
+ 
+	
+	
+	     
+	                 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
